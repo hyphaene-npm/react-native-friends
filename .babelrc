@@ -1,0 +1,11 @@
+{
+	"ignore": ["node_modules/**"],
+	"env": {
+		"dev": {
+			"presets": [["babel-preset-env", { "modules": false }], "babel-preset-react"]
+		},
+		"test": {
+			"presets": [["babel-preset-env", { "modules": "commonjs" }], "babel-preset-react"]
+		}
+	}
+}

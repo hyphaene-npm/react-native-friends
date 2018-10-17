@@ -1,0 +1,4 @@
+{
+  "src/**/*.{js,jsx}": ["yarn lint:js","yarn test:commit"],
+  "src/**/*.{css,scss}":"yarn lint:css"
+}

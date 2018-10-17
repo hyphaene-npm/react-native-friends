@@ -1,0 +1,25 @@
+{
+	"name": "react-native-friends-example",
+	"description": "helper for react-native-friends",
+	"author": "Maximilien Garenne &lt;maximilien.garenne@gmail.com&gt;",
+	"license": "",
+	"version": "0.0.0",
+	"private": true,
+	"dependencies": {
+		"prop-types": "^15.6.1",
+		"react": "^16.5.2",
+		"react-dom": "^16.5.2",
+		"react-native-friends": "link:..",
+		"react-scripts": "^1.1.4",
+		"node-sass-chokidar": "^1.3.0",
+		"node-pre-gyp": "^0.10.0"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject",
+		"build-css": "node-sass-chokidar src/ -o src/",
+		"watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive"
+	}
+}
