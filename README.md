@@ -1,5 +1,7 @@
 # Rollup React npm(based on example-rollup-react-component-npm-package)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hyphaene-npm/react-native-friends.svg)](https://greenkeeper.io/)
+
 `React` component "library" using [`rollup`](https://github.com/rollup/rollup) that is published to `npm`.
 
 ## What it does
